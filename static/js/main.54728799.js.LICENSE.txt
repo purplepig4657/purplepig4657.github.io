@@ -1,3 +1,5 @@
+/*! For license information please see index.js.LICENSE.txt */
+
 /**
  * @license React
  * react-dom.production.min.js
@@ -39,7 +41,7 @@
  */
 
 /**
- * @remix-run/router v1.15.1
+ * @remix-run/router v1.16.1
  *
  * Copyright (c) Remix Software Inc.
  *
@@ -50,7 +52,7 @@
  */
 
 /**
- * React Router v6.22.1
+ * React Router v6.23.1
  *
  * Copyright (c) Remix Software Inc.
  *
