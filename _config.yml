@@ -16,6 +16,7 @@
 url: "https://purplepig4657.github.io"
 baseurl: "" # the subpath of your site, e.g. /blog
 timezone: Asia/Seoul
+google_analytics: "G-4HGKS3QZ3G"
 
 # Build settings
 markdown: kramdown
