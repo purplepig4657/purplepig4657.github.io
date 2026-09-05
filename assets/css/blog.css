@@ -63,6 +63,78 @@
     margin: 1rem 0;
 }
 
+/* Figure and table captions */
+.blog-content .caption {
+    width: 92%;
+    margin: 0.25rem auto 1.75rem;
+    padding: 0.7rem 0.9rem;
+    border-left: 3px solid #94a3b8;
+    border-radius: 0 0.35rem 0.35rem 0;
+    background: #f8fafc;
+    color: #64748b;
+    font-size: 0.875rem;
+    line-height: 1.55;
+}
+
+.blog-content .caption p {
+    margin: 0;
+}
+
+.blog-content .caption strong {
+    color: #475569;
+}
+
+/* Citations use bracketed numbers; explanatory notes stay superscripted. */
+.blog-content a.citation {
+    color: #2563eb;
+    font-size: 0.9em;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.blog-content a.citation:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+.blog-content a.citation + a.citation {
+    margin-left: 0.12rem;
+}
+
+.blog-content .reference-list {
+    color: #495057;
+    font-size: 0.9rem;
+    line-height: 1.55;
+}
+
+.blog-content .reference-list li {
+    margin-bottom: 0.75rem;
+    padding-left: 0.25rem;
+    scroll-margin-top: 6rem;
+}
+
+.blog-content sup a.footnote {
+    color: #7c3aed;
+    font-weight: 600;
+}
+
+.blog-content .footnotes {
+    margin-top: 2.5rem;
+    padding-top: 1rem;
+    border-top: 1px dashed #cbd5e1;
+    color: #64748b;
+    font-size: 0.85rem;
+}
+
+.blog-content .footnotes::before {
+    display: block;
+    margin-bottom: 0.75rem;
+    color: #475569;
+    content: "Notes";
+    font-size: 1rem;
+    font-weight: 600;
+}
+
 /* Multi-column image layouts */
 .blog-content .row img {
     margin: 0.5rem 0;
@@ -113,6 +185,10 @@
     .blog-content .col-md-6 img,
     .blog-content .col-md-4 img {
         height: 150px;
+    }
+
+    .blog-content .caption {
+        width: 100%;
     }
 }
 

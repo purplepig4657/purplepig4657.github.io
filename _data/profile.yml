@@ -1,61 +1,82 @@
-primary_name: "Your Name"
+primary_name: "Taehyeon Kim"
 secondary_name: ""
-navbar_name: "Your Name"
+navbar_name: "Taehyoen Kim"
 
 positions:
-- name: Title or Position
-- name: Affiliation Name
-  logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+- name: M.S. Student
+- name: Pohang University of Science and Technology (POSTECH)
+  logo: /assets/images/badges/postech-emblem.svg  # Logo is optional
 
 
-email: "your@email.com"
+email: "taehyeonkim@postech.ac.kr"
 # cv_link: link-to-your-cv-file
-gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: your_github_id
-twitter: your_twitter_id  # Do not include the '@' symbol
+# gscholar: xFmQpf4AAAAJ
+github: purplepig4657
+# twitter: your_twitter_id  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
-# linkedin: your-linked-in-id
+linkedin: taehyeonkimm
 # orcid: 0000-0000-0000-0000
 
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
-  </p>
-  <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    I am an M.S. student at the <a href="https://ml.postech.ac.kr/" target="_blank">Machine Learning Lab</a> at POSTECH.
   </p>
 
-portrait_url: /assets/images/photos/portrait.jpg
+  <p>
+    I am currently working on <b>large model optimization</b>, advised by
+    <a href="https://sites.google.com/view/eh-p/home" target="_blank">Eunhyeok Park</a>.
+    My recent research interests include developing more effective methods for
+    Parameter-Efficient Fine-Tuning (PEFT), as well as improving the efficiency of
+    large model inference.
+    More broadly, I am interested in understanding and exploiting low-dimensional
+    structures in large language models to make both training and inference more efficient.
+    I am particularly interested in methods that reduce computational and memory costs
+    while preserving model performance.
+  </p>
+
+
+
+# <p>
+#   Before becoming interested in machine learning, I was particularly interested in
+#   Programming Languages during my undergraduate studies at Chungnam National University (CNU),
+#   where I received my B.S. in Computer Science and Engineering.
+#   I studied and conducted research on related topics, advised by
+#   <a href="https://cnu-ants.github.io/" target="_blank">Sungho Lee</a>.
+# </p>
+
+portrait_url: /assets/images/photos/taehyeonkim.jpg
 portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+  Taehyeon Kim
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
+- name: Pohang University of Science and Technology (POSTECH)
+  logo: /assets/images/badges/postech-emblem.svg
   position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
-  date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+    Department of Computer Science and Engineering <br/>
+    M.S. Student
+  date: Jan. 2025 - present
+- name: Chungnam National University (CNU)
+  logo: /assets/images/badges/cnu-emblem.png
+  position: >-
+   B.S. in Computer Science and Engineering <br/>
+   GPA: 4.33/4.5 (major: 4.4/4.5)
+  date: Mar. 2021 - Feb. 2025
 
 # experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+# - name: Machine Learning Lab, POSTECH
+#   logo: /assets/images/badges/postech-emblem.svg
+#   position: Research Assistant
+#   date: Jan. 2026 - present
 
 awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+- name: LG Electronics Academic Scholarship
+  date: Fall 2026
+- name: Academic Excellence Full Scholarship, by CNU
+  date: Entire semester (Fall 2021 - Spring 2024)
+# - name: Award Name 1 
+#   date: 2021
+# - name: A quick brown fox jumps over the lazy dog and runs away award
+#   date: 2021
