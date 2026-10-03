@@ -33,14 +33,13 @@ short_bio: >-
     My recent research interests include developing more effective methods for
     Parameter-Efficient Fine-Tuning (PEFT), as well as improving the efficiency of
     large model inference.
-    More broadly, I am interested in understanding and exploiting low-dimensional
-    structures in large language models to make both training and inference more efficient.
-    I am particularly interested in methods that reduce computational and memory costs
-    while preserving model performance.
+    Specifically, I am interested in understanding and exploiting low-dimensional
+    structures in large models to make both training and inference more efficient.
   </p>
 
 
-
+#    I am particularly interested in methods that reduce computational and memory costs
+#     while preserving model performance.
 # <p>
 #   Before becoming interested in machine learning, I was particularly interested in
 #   Programming Languages during my undergraduate studies at Chungnam National University (CNU),
